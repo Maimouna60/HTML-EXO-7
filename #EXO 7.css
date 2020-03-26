@@ -1,0 +1,14 @@
+#EXO7.css
+#identity, #dentity legend {
+    background-color: dodgerblue;
+}
+#delivery, #delivery legend {
+    background-color: mediumvioletred;
+}
+#paiement, #paiement legend {
+    background-color: red;
+}
+ul li {
+    padding: 1px;
+    list-style: none;
+}

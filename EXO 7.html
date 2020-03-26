@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset= "UTF-8"/>
+    <link type="text:css rel="stylesheet" href="style.css">
+    <title>Exercise 7</title>
+</head>
+<body>
+      <div id="bloc1">
+      <p><div <style="margin:15px;">Votre identité</p></div>
+        <form method="post" action="traitement.php">
+            <ol> 
+                <li> Nom :<input type="text" placeholder="Nom"/></li>
+                <li> Prénom:<input type="text" placeholder="Prénom"/></li>
+                <li> Adresse :<input type="text" placeholder="Adresse"/></li>
+            </ol></div>
+            <div id="bloc2">
+        <p><div style="margin: 15px;">Adresse de livraison</p></div>
+        <form method="post" action="traitement.php">
+            <ol>
+                <li>Adresse :<textarea></textarea></li>
+                <li>Code postal : <input type="text" placeholder="Code postal"></li>
+                <li>Ville <input type="text" placeholder="Code postal"/></li>
+            </ol> 
+        <div id="bloc3">
+        <p><div style="margin: 15px;">Information de réglement</p></div>
+        <form method="post" action="traitement.php"></form>
+            <ol>
+                <li>Type de Carte 
+                    <ul>
+                        <li><unput type="radio" name="Visa"  id="Visa"/> <label for="Visa"> Visa</label></li>
+                        <li><unput type="radio" name="Mastercard"  id="Mastercard"/><label for="Mastercard"> Mastercard</label></li>
+                    </ul>    
+                </li>        
+                <li><label for="cardnumber">Numero de carte</label> : <input type="text" name="cardnumber" id="cardnumber" placeholder="Numero de carte"/></li>
+                <li><label for="securitycode">Code de sécurite</label> : <input type="text" name="securitycode" id="securitycode" placeholder="Code de securité"/></li>
+                <li><label for="cardholdername">Nom du titulaire</label> : <input type="text" name="cardholdername" id="cardholdername" placeholder="Nom du titulaire" /></li>
+            </ol>
+        </fieldset>
+        <input type= "submit" name="buy" value="J'achete !"/> 
+        </form>
+    </body>
+</html>
